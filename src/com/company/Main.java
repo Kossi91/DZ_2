@@ -10,6 +10,7 @@ public class Main {
        System.out.println(goForAWalk(31,27));
        System.out.println(goForAWalk(29,14));
        System.out.println(goForAWalk(generateRandomAge(),20));
+        System.out.println("Hello word");
 
     }
     public static String goForAWalk(int age,int temp){
@@ -24,8 +25,6 @@ public class Main {
 
         else
             return "Ostavaytesi doma";
-
-
 
     }
     public static int generateRandomAge(){
